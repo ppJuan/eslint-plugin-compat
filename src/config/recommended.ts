@@ -13,7 +13,7 @@ const flat = {
     },
   },
   rules: {
-    "compat/compat": "error",
+    "compat-patch/compat": "error",
   },
 } satisfies Linter.FlatConfig;
 

@@ -1,30 +1,14 @@
 {
-  "name": "eslint-plugin-compat",
+  "name": "eslint-plugin-compat-patch",
   "version": "5.0.0",
-  "description": "Lint browser compatibility of API used",
-  "keywords": [
-    "eslint",
-    "browser",
-    "support",
-    "api",
-    "lint",
-    "caniuse",
-    "kangax"
-  ],
-  "homepage": "https://github.com/amilajack/eslint-plugin-compat#readme",
-  "bugs": {
-    "url": "https://github.com/amilajack/eslint-plugin-compat/issues"
-  },
+  "description": "a patch for eslint-plugin-compat",
+  "homepage": "https://github.com/ppJuan/eslint-plugin-compat-patch",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amilajack/eslint-plugin-compat.git"
+    "url": "git+https://github.com/ppJuan/eslint-plugin-compat-patch.git"
   },
   "license": "MIT",
-  "author": "Amila Welihinda",
-  "contributors": [
-    "Amila Welihinda <amilajack@gmail.com> (https://github.com/amilajack)",
-    "John Tran <jptran318@gmail.com> (https://github.com/jooohhn)"
-  ],
+  "author": "panyuqing",
   "main": "./lib/cjs/src/index.js",
   "types": "./lib/cjs/src/index.d.ts",
   "exports": {
@@ -134,10 +118,5 @@
   },
   "engines": {
     "node": ">=14.x"
-  },
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/eslint-plugin-compat",
-    "logo": "https://opencollective.com/opencollective/logo.txt"
   }
 }
