@@ -1,6 +1,6 @@
 {
     "name": "eslint-plugin-compat-patch",
-    "version": "3.13.0-beta.1",
+    "version": "3.13.0",
     "description": "a patch for eslint-plugin-compat",
     "homepage": "https://github.com/ppJuan/eslint-plugin-compat-patch",
     "main": "lib/index.js",
