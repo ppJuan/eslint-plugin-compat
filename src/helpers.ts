@@ -31,9 +31,9 @@ function checkNotInsideIfStatementAndReport(
   failingRule: AstMetadataApiWithTargetsResolver,
   node: ESLintNode
 ) {
-  if (!isInsideIfStatement(context)) {
+  // if (!isInsideIfStatement(context)) {
     handleFailingRule(failingRule, node);
-  }
+  // }
 }
 
 export function lintCallExpression(

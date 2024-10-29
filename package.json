@@ -1,34 +1,18 @@
 {
-    "name": "eslint-plugin-compat",
-    "version": "3.13.0",
-    "description": "Lint browser compatibility of API used",
+    "name": "eslint-plugin-compat-patch",
+    "version": "3.13.0-beta.1",
+    "description": "a patch for eslint-plugin-compat",
+    "homepage": "https://github.com/ppJuan/eslint-plugin-compat-patch",
     "main": "lib/index.js",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/amilajack/eslint-plugin-compat.git"
+        "url": "git+https://github.com/ppJuan/eslint-plugin-compat-patch.git"
     },
-    "keywords": [
-        "eslint",
-        "browser",
-        "support",
-        "api",
-        "lint",
-        "caniuse",
-        "kangax"
-    ],
-    "author": "Amila Welihinda",
-    "contributors": [
-        "Amila Welihinda <amilajack@gmail.com> (https://github.com/amilajack)",
-        "John Tran <jptran318@gmail.com> (https://github.com/jooohhn)"
-    ],
+    "author": "panyuqing",
     "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/amilajack/eslint-plugin-compat/issues"
-    },
     "files": [
         "lib"
     ],
-    "homepage": "https://github.com/amilajack/eslint-plugin-compat#readme",
     "scripts": {
         "benchmarks": "ts-node-transpile-only test/benchmarks.ts",
         "build": "rm -rf lib && babel src --out-dir lib --source-maps inline --extensions '.ts'",
@@ -97,11 +81,6 @@
     },
     "engines": {
         "node": ">=9.x"
-    },
-    "collective": {
-        "type": "opencollective",
-        "url": "https://opencollective.com/eslint-plugin-compat",
-        "logo": "https://opencollective.com/opencollective/logo.txt"
     },
     "babel": {
         "presets": [
