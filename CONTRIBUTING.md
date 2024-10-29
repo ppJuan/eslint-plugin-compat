@@ -1,25 +1,11 @@
-## Hello Contributor,
+Steps:
 
-Here's a list of tips and tricks that will help you get started.
+1. modify code.
 
-## Ramping Up!
+2. modify `version` in `package.json` file.
 
-#### Important Concepts
+3. run `npm run build`.
 
-* Static Analysis
-* ASTs
-* Polyfills
-* TypeScript
-* WebIDL
+4. commit.
 
-### Benchmarking
-
-Benchmarking (`yarn benchmarks`) helps prevent performance regression.
-
-#### Related Projects
-
-`eslint-plugin-compat` relies on other projects to provide information about web APIs so that it can properly analyze your code. It is recommended that you go [through related projects](https://github.com/amilajack/eslint-plugin-compat#related) and understand each one at a high level.
-
-## Editor Configuration
-
-See [these docs](https://electron-react-boilerplate.js.org/docs/editor-configuration) to make sure your text editor is properly configured.
+5. run `npm publish --registry https://registry.npmjs.org/`

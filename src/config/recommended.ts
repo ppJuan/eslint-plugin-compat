@@ -1,10 +1,10 @@
 // Reconmmended configs for this plugin
 export default {
-  plugins: ["compat"],
+  plugins: ["compat-patch"],
   env: {
     browser: true,
   },
   rules: {
-    "compat/compat": "error",
+    "compat-patch/compat": "error",
   },
 };
